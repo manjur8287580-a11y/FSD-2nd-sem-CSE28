@@ -1,13 +1,214 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-react-app</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaMart - Smart Shopping Experience</title>
+    <link rel="stylesheet" href="novamart.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+
+            <div class="logo">NovaMart</div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search Products...">
+                <button class="search-btn">🔍 Search</button>
+            </div>
+
+            <div class="header-links">
+                <a href="#" class="header-link">Wishlist</a>
+                <a href="#" class="header-link">Profile</a>
+                <a href="#" class="header-link">Cart</a>
+            </div>
+
+        </div>
+
+        <nav class="navbar">
+            <a href="#" class="nav-link">Trending</a>
+            <a href="#" class="nav-link">New Arrivals</a>
+            <a href="#" class="nav-link">Electronics</a>
+            <a href="#" class="nav-link">Accessories</a>
+            <a href="#" class="nav-link">Gaming</a>
+            <a href="#" class="nav-link">Lifestyle</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to NovaMart</h1>
+            <p>Premium Gadgets, Smart Prices & Fast Delivery</p>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <main class="container">
+
+        <h2 class="section-title">Top Selling Products</h2>
+
+        <div class="products-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="headphone.jpg" alt="Headphones">
+                </div>
+
+                <h3 class="product-name">Wireless Headphones</h3>
+
+                <p class="product-price">₹3000</p>
+
+                <div class="product-rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="reviews">(2,547 Reviews)</span>
+                </div>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="usbc.jpg" alt="USB-C Cable">
+                </div>
+
+                <h3 class="product-name">USB-C Cable</h3>
+
+                <p class="product-price">₹500</p>
+
+                <div class="product-rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="reviews">(1,234 Reviews)</span>
+                </div>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="speaker.jpg" alt="Speaker">
+                </div>
+
+                <h3 class="product-name">Portable Speaker</h3>
+
+                <p class="product-price">₹1500</p>
+
+                <div class="product-rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="reviews">(3,891 Reviews)</span>
+                </div>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="mobilestand.jpg" alt="Mobile Stand">
+                </div>
+
+                <h3 class="product-name">Smartphone Stand</h3>
+
+                <p class="product-price">₹100</p>
+
+                <div class="product-rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="reviews">(856 Reviews)</span>
+                </div>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Laptop.webp" alt="Laptop">
+                </div>
+
+                <h3 class="product-name">Laptop</h3>
+
+                <p class="product-price">₹53000</p>
+
+                <div class="product-rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="reviews">(2,103 Reviews)</span>
+                </div>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="webcam.jpg" alt="Webcam">
+                </div>
+
+                <h3 class="product-name">Webcam HD</h3>
+
+                <p class="product-price">₹2500</p>
+
+                <div class="product-rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="reviews">(1,567 Reviews)</span>
+                </div>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-section">
+                <h4>Company</h4>
+
+                <ul>
+                    <li><a href="#">About NovaMart</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Newsroom</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Support</h4>
+
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Resources</h4>
+
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 NovaMart. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="novamart.js"></script>
+
+</body>
 </html>
